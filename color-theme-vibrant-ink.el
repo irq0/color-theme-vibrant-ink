@@ -19,7 +19,7 @@
       (foreground-color . "white")
       (list-matching-lines-face . bold)
       (view-highlight-face . highlight))
-     (default ((t (nil))))
+     (default ((t (:family "Anonymous Pro" :foundry "unknown"))))
      (bold ((t (:bold t))))
      (bold-italic ((t (:italic t :bold t))))
      (fringe ((t (:background "black"))))
@@ -48,7 +48,7 @@
      (org-document-info ((t (:foreground "pale turquoise"))))
      (org-document-info-keyword ((t (:foreground "grey70"))))
      (org-document-title ((t (:bold t :foreground "pale turquoise"  :height 1.44))))
-     (org-done ((t (:bold t :background "ForestGreen" :foreground "DarkSeaGreen2" :slant oblique ))))
+     (org-done ((t (:bold t :background "ForestGreen" :foreground "DarkSeaGreen2"))))
      (org-drawer ((t (:foreground "LightSkyBlue"))))
      (org-ellipsis ((t (:foreground "LightGoldenrod" :underline t))))
      (org-footnote ((t (:foreground "Cyan" :underline t))))
@@ -76,7 +76,7 @@
      (org-sexp-date ((t (:foreground "Cyan"))))
      (org-special-keyword ((t (:foreground "LightSalmon"))))
      (org-table ((t (:foreground "LightSkyBlue"))))
-     (org-tag ((t (:bold t :background "gray80" :foreground "white"))))
+     (org-tag ((t (:bold t :background "gray30" :foreground "white"))))
      (org-target ((t (:underline t))))
      (org-time-grid ((t (:foreground "LightGoldenrod"))))
      (org-todo ((t (:bold t :background "royalblue4" :foreground "thistle"))))
@@ -124,7 +124,18 @@
      (flymake-errline ((t (:background "LightSalmon" :foreground "black"))))
      (flymake-warnline ((t (:background "LightSteelBlue" :foreground "black"))))
      (underline ((t (:underline t))))
+     (trailing-whitespace ((t (:background "LightSalmon"))))
      (minibuffer-prompt ((t (:bold t :foreground "#ff6600")))))))
+
+
+
+
+
+
+
+
+
+
 
 
 
