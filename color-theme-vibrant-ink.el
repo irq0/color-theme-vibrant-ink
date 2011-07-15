@@ -24,6 +24,7 @@
      (bold-italic ((t (:italic t :bold t))))
      (fringe ((t (:background "black"))))
      (nobreak-space ((t (:foreground "cyan" :underline t))))
+     (org-default ((t (:stipple nil :strike-through nil :underline nil :slant normal :weight normal :height 120 :width normal :family "Droid Sans Mono"))))
      (org-agenda-clocking ((t (:background "blue"))))
      (org-agenda-column-dateline ((t (:weight normal :slant normal :underline nil :strike-through nil :background "grey30" :height 98))))
      (org-agenda-current-time ((t (:bold t :background "snow" :foreground "DodgerBlue4" ))))
