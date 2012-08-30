@@ -19,7 +19,7 @@
       (foreground-color . "white")
       (list-matching-lines-face . bold)
       (view-highlight-face . highlight))
-     (default ((t (:family "Anonymous Pro" :foundry "unknown"))))
+     (default ((t (:family "Terminus" :foundry "unknown"))))
      (bold ((t (:bold t))))
      (bold-italic ((t (:italic t :bold t))))
      (fringe ((t (:background "black"))))
